@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8">
+<meta name="description" content="Ecommerce Website">
+<meta name="author" content="Fawaz ahamed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An HTML Based Electronic Ecommerce Store">
+    <title>Retailer Dashboard</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="adminda.css">
+    
+</head>
+
+<body class="home">
+    <header>
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="index.html">
+    <img src="Includes/Image/gadgetmac.png" class="logo" alt="IMG-LOGO">
+    </a>
+    </div>
+  
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href=""><span class="glyphicon glyphicon-user"></span> Account </a></li>
+        <li><a href=""><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="hero-image">
+     <div class="hero-text">
+          <h1>Welcome Retailer</h1>
+     </div>
+  </div>
+
+  <div class="row">
+        <div class="col-md-4">
+           <aside>
+          <div class="sidebar">
+              <a href="retailerdash.html">Dashboard</a>
+              <a href="retailerin.html">Inventory</a>
+              <a class="active" href="">Add Product</a>
+              <a href="">Orders</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <main>
+      
+      <form>
+        
+<div class="col-md-8">
+        <h3 class="text-center"><strong>Product Manage</strong></h3>
+       <form class="form-horizontal">
+    <fieldset>
+
+        <legend>Add a Product</legend>
+
+       
+        <div class="form-group">
+            <label class="col-md-4" for="title">Product Name</label>
+
+            <div class="col-md-5">
+                <input id="title" name="title" type="text" placeholder="Product Name" class="form-control input-md"
+                       required="">
+            </div>
+        </div>
+
+     
+
+        <div class="form-group">
+            <label class="col-md-4" for="description">Description</label>
+
+            <div class="col-md-4">
+                <textarea class="form-control" id="description" name="description"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4" for="stock">Stock</label>
+
+            <div class="col-md-4">
+                <input id="stock" name="stock" type="text" placeholder="Enter Available stock" class="form-control input-md"
+                       required="">
+        </div>
+
+      
+        <div class="form-group">
+            <label class="col-md-4" for="saveBtn"></label>
+
+            <div class="col-md-8">
+                <button name="saveBtn" class="btn btn-basic">Save</button>
+                <button name="cancelBtn" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+      
+</div>
+</form>
+</main>
+</body>
+</html>
+     
